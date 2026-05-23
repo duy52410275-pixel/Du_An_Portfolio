@@ -42,7 +42,7 @@ export default function RootLayout({
             <aside className="hidden xl:block xl:w-80">
               <div className="sticky top-28 space-y-6">
                 <section className="shell-card px-6 py-6">
-                  <p className="eyebrow">Hồ sơ cá nhân</p>
+                  <p className="eyebrow">Thông tin cá nhân</p>
                   <div className="profile-orb mt-4">
                     <span>{profile.initials}</span>
                   </div>
@@ -71,7 +71,7 @@ export default function RootLayout({
                 </section>
 
                 <section className="shell-card px-6 py-6">
-                  <p className="eyebrow">Sidebar / Điều hướng</p>
+                  <p className="eyebrow">Điều hướng</p>
                   <div className="mt-4">
                     <SiteNavigation items={navItems} orientation="column" />
                   </div>
@@ -90,11 +90,11 @@ export default function RootLayout({
           <footer className="shell-card mt-6 flex flex-col gap-4 px-5 py-5 lg:flex-row lg:items-center lg:justify-between">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-700">
-                Footer
+                Liên hệ nhanh
               </p>
               <p className="mt-2 text-sm text-slate-600">
-                Portfolio được tối ưu cho bài nộp môn học, responsive và sẵn
-                sàng deploy lên GitHub Pages.
+                Cảm ơn bạn đã ghé xem portfolio này. Mình vẫn đang tiếp tục cập
+                nhật thêm dự án và hoàn thiện nội dung theo thời gian.
               </p>
             </div>
             <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">

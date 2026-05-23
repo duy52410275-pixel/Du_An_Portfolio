@@ -17,9 +17,9 @@ export default function HomePage() {
   return (
     <div className="space-y-6">
       <PageHero
-        eyebrow="Portfolio Student Project"
-        title="Portfolio cá nhân được xây dựng bằng Next.js, sẵn sàng nộp bài và mở rộng."
-        description={`${profile.shortBio} Trang web này giúp giới thiệu bản thân, trình bày CV, sản phẩm đã làm và tạo điểm chạm chuyên nghiệp với nhà tuyển dụng.`}
+        eyebrow="Portfolio cá nhân"
+        title="Xin chào, đây là nơi mình giới thiệu bản thân và những gì mình đã làm với React, Next.js."
+        description={`${profile.shortBio} Nếu bạn muốn xem nhanh phần học vấn, dự án và cách liên hệ với mình thì mọi thứ đều có sẵn ở đây.`}
         actions={[
           { href: "/products", label: "Xem dự án" },
           { href: "/contact", label: "Liên hệ nhanh", secondary: true },
@@ -68,14 +68,13 @@ export default function HomePage() {
         <article className="soft-card section-shell">
           <p className="eyebrow">Giới thiệu nhanh</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Một portfolio không chỉ đẹp mà còn phải dễ đọc, dễ nhớ và dễ liên hệ.
+            Mình muốn portfolio này nhìn gọn, dễ đọc và đủ thông tin ngay từ lần xem đầu tiên.
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-8 text-slate-600">
-            Mục tiêu của dự án là trình bày rõ bản sắc cá nhân, điểm mạnh kỹ
-            thuật và các dự án tiêu biểu trong một bố cục hiện đại. Toàn bộ
-            giao diện được tối ưu cho desktop và mobile, đồng thời điều hướng
-            bằng client-side routing của Next.js để di chuyển mượt mà giữa các
-            trang.
+            Khi làm dự án này, mình ưu tiên cách trình bày rõ ràng để người xem
+            có thể hiểu nhanh mình là ai, đang học gì và đã làm được những gì.
+            Ngoài phần giao diện, mình cũng cố gắng giữ cho cấu trúc code dễ
+            sửa để sau này có thể cập nhật thành portfolio cá nhân thật.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {strengths.map((strength, index) => (
@@ -96,7 +95,7 @@ export default function HomePage() {
 
         <aside className="soft-card section-shell flex flex-col justify-between">
           <div>
-            <p className="eyebrow">Snapshot</p>
+            <p className="eyebrow">Thông tin nhanh</p>
             <div className="profile-orb mt-4">
               <span>{profile.initials}</span>
             </div>
@@ -109,7 +108,7 @@ export default function HomePage() {
           </div>
           <div className="mt-8 space-y-4 text-sm text-slate-600">
             <div className="flex items-center justify-between gap-4 border-b border-slate-200/80 pb-4">
-              <span>Vai trò mục tiêu</span>
+              <span>Định hướng</span>
               <span className="font-semibold text-slate-900">{profile.role}</span>
             </div>
             <div className="flex items-center justify-between gap-4 border-b border-slate-200/80 pb-4">
@@ -119,7 +118,7 @@ export default function HomePage() {
               </span>
             </div>
             <div className="flex items-center justify-between gap-4">
-              <span>Sẵn sàng</span>
+              <span>Hiện tại</span>
               <span className="status-pill">{profile.availability}</span>
             </div>
           </div>

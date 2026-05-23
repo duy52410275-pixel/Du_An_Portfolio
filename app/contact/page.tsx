@@ -17,8 +17,8 @@ export default function ContactPage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="Liên hệ"
-        title="Kết nối để trao đổi về cơ hội thực tập, freelance hoặc hợp tác dự án."
-        description="Phần contact được bố trí đơn giản, dễ thao tác và có đủ đường dẫn hoạt động. Bạn có thể đổi sang thông tin thật của mình trong file dữ liệu portfolio."
+        title="Nếu muốn trao đổi thêm về bài làm hoặc cơ hội thực tập, bạn có thể liên hệ với mình."
+        description="Mình để sẵn các kênh liên hệ cơ bản ở đây để người xem tiện kết nối. Sau này chỉ cần thay bằng thông tin thật là có thể dùng ngay."
         actions={[
           {
             href: `mailto:${profile.email}`,
@@ -66,14 +66,13 @@ export default function ContactPage() {
 
       <section className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
         <article className="soft-card section-shell">
-          <p className="eyebrow">Social links</p>
+          <p className="eyebrow">Kết nối thêm</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Các icon social đã được gắn liên kết sẵn.
+            Bạn cũng có thể xem thêm GitHub hoặc nhắn cho mình qua các kênh bên dưới.
           </h2>
           <p className="mt-4 text-base leading-8 text-slate-600">
-            Hiện tại giao diện đang dùng liên kết mẫu để bạn có thể demo ngay.
-            Chỉ cần thay URL trong file dữ liệu là sẽ thành portfolio cá nhân
-            hoàn chỉnh.
+            Hiện tại mình đang để liên kết mẫu để bạn có thể demo ngay. Chỉ cần
+            cập nhật lại URL và thông tin thật là phần này sẽ hoàn chỉnh.
           </p>
           <div className="mt-8">
             <SocialLinks links={socialLinks} />
@@ -83,7 +82,7 @@ export default function ContactPage() {
         <article className="soft-card section-shell">
           <p className="eyebrow">Gửi tin nhắn nhanh</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Form đơn giản sử dụng `mailto:` để không cần backend.
+            Nếu tiện, bạn có thể để lại cho mình một lời nhắn ngắn ở đây.
           </h2>
           <form
             action={`mailto:${profile.email}`}
@@ -110,7 +109,7 @@ export default function ContactPage() {
               />
             </label>
             <label className="grid gap-2 text-sm font-medium text-slate-700">
-              Noi dung
+              Nội dung
               <textarea
                 name="message"
                 rows={5}

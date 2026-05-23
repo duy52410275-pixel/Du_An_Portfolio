@@ -17,8 +17,8 @@ export default function CvPage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="CV"
-        title="Tổng hợp học vấn, kinh nghiệm, kỹ năng và thành tựu trong một bố cục dễ theo dõi."
-        description="Thay vì để CV rời rạc, trang này trình bày thành timeline và nhóm kỹ năng rõ ràng. Nhà tuyển dụng có thể xem nhanh và tải file CV mẫu nếu cần."
+        title="Đây là phần tóm tắt nhanh về học vấn, kỹ năng và những gì mình đã làm."
+        description="Mình sắp xếp nội dung theo dạng timeline để người xem dễ theo dõi hơn thay vì phải đọc một CV quá dài ngay từ đầu."
         actions={[
           {
             href: "/portfolio-cv.txt",

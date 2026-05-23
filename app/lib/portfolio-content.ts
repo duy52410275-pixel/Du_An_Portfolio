@@ -31,17 +31,17 @@ type ProjectItem = {
 };
 
 export const profile = {
-  name: "Tên Của Bạn",
+  name: "Tên của bạn",
   initials: "TB",
-  role: "Lập trình viên Frontend / Người yêu UI",
+  role: "Sinh viên CNTT định hướng Frontend",
   location: "TP. Hồ Chí Minh, Việt Nam",
   email: "ban@example.com",
   phoneDisplay: "+84 90 000 0000",
   tagline:
-    "Sinh viên yêu thích xây dựng web portfolio, landing page và giao diện có bố cục rõ ràng.",
+    "Mình thích làm những giao diện gọn gàng, dễ nhìn và chạy mượt trên cả điện thoại lẫn máy tính.",
   shortBio:
-    "Portfolio được thiết kế để giới thiệu bản thân, CV, dự án và thông tin liên hệ trong một giao diện hiện đại, dễ chỉnh sửa.",
-  availability: "Sẵn sàng cho internship",
+    "Đây là nơi mình giới thiệu ngắn gọn về bản thân, kỹ năng và những dự án đã làm trong quá trình học.",
+  availability: "Đang tìm cơ hội thực tập Frontend",
 };
 
 export const navItems: NavItem[] = [
@@ -60,75 +60,75 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const homeMilestones = [
-  { value: "05", label: "Trang nội dung chính" },
-  { value: "100%", label: "Responsive cho mobile" },
-  { value: "GitHub", label: "Sẵn sàng deploy Pages" },
+  { value: "05", label: "Mục nội dung chính" },
+  { value: "100%", label: "Hiển thị tốt trên mobile" },
+  { value: "GitHub", label: "Sẵn sàng đưa lên GitHub" },
 ];
 
 export const highlightCards = [
   {
     href: "/about",
     eyebrow: "Giới thiệu",
-    title: "Bản sắc cá nhân",
+    title: "Về bản thân mình",
     description:
-      "Nơi tóm tắt câu chuyện, mục tiêu và phong cách học tập để người xem hiểu bạn nhanh hơn.",
+      "Một vài dòng ngắn gọn về mình, định hướng đang theo đuổi và cách mình tiếp cận việc học frontend.",
   },
   {
     href: "/cv",
     eyebrow: "CV",
-    title: "Hồ sơ năng lực",
+    title: "Thông tin học tập",
     description:
-      "Timeline học vấn, kinh nghiệm, kỹ năng và thành tựu được trình bày gọn, dễ theo dõi.",
+      "Tóm tắt học vấn, kỹ năng và những phần việc mình từng làm theo cách dễ nhìn, dễ theo dõi.",
   },
   {
     href: "/products",
     eyebrow: "Dự án",
-    title: "Sản phẩm tiêu biểu",
+    title: "Các dự án đã làm",
     description:
-      "Tập trung vào các bài toán đã giải quyết, công nghệ sử dụng và giá trị tạo ra cho người dùng.",
+      "Nơi mình gom lại những bài đã làm để cho thấy cách mình xây dựng giao diện và xử lý nội dung.",
   },
   {
     href: "/contact",
     eyebrow: "Liên hệ",
-    title: "Kết nối nhanh",
+    title: "Liên hệ với mình",
     description:
-      "Thông tin liên hệ, social icons hoạt động và form mailto để demo ngay không cần backend.",
+      "Nếu muốn trao đổi thêm về bài làm hoặc cơ hội thực tập, bạn có thể liên hệ với mình tại đây.",
   },
 ];
 
 export const strengths = [
   {
-    title: "Bố cục có chủ đích",
+    title: "Trình bày rõ ràng",
     description:
-      "Mỗi trang đều được chia thành khối nội dung rõ ràng để đảm bảo người xem không bị rối và tìm được thông tin nhanh.",
+      "Mình chia nội dung theo từng phần để người xem dễ theo dõi và tìm được ý chính nhanh hơn.",
   },
   {
-    title: "Code có thể mở rộng",
+    title: "Dễ chỉnh sửa",
     description:
-      "Dữ liệu được tách riêng thành file content giúp sửa thông tin cá nhân nhanh mà không cần động vào giao diện.",
+      "Thông tin cá nhân, dự án và liên hệ được tách riêng nên khi cần sửa chỉ cần cập nhật ở một chỗ.",
   },
   {
-    title: "Sẵn sàng nộp bài",
+    title: "Sẵn sàng để nộp",
     description:
-      "Dự án đã có nav, footer, responsive, liên kết social và workflow deploy lên GitHub Pages.",
+      "Trang đã có menu, social link, responsive và có thể deploy ngay lên GitHub Pages để demo hoặc nộp bài.",
   },
 ];
 
 export const studyFocus = [
   {
-    title: "Frontend fundamentals",
+    title: "Nền tảng frontend",
     description:
-      "Tập trung vào HTML semantic, CSS layout, responsive design, accessibility cơ bản và cách tổ chức component hợp lý.",
+      "Mình đang tập trung học kỹ HTML, CSS, responsive và cách chia bố cục sao cho giao diện vừa đẹp vừa dễ dùng.",
   },
   {
-    title: "React va Next.js",
+    title: "React và Next.js",
     description:
-      "Sử dụng App Router để tách route rõ ràng, tái sử dụng layout chung và giữ trải nghiệm điều hướng mượt mà.",
+      "Mình dùng React và Next.js để làm quen với cách tách component, chia route và tổ chức dự án bài bản hơn.",
   },
   {
-    title: "UI writing và trình bày",
+    title: "Cách trình bày nội dung",
     description:
-      "Chú trọng cách viết tiêu đề, mô tả và microcopy để portfolio vừa đẹp vừa dễ đọc, đúng chất bài giới thiệu bản thân.",
+      "Ngoài phần code, mình cũng để ý cách viết tiêu đề và mô tả để portfolio đọc tự nhiên, không quá khô khan.",
   },
 ];
 
@@ -153,31 +153,31 @@ export const educationTimeline: TimelineItem[] = [
     title: "Cử nhân Công nghệ thông tin",
     location: "Trường đại học / cao đẳng của bạn",
     description:
-      "Học các môn nền tảng về lập trình, cơ sở dữ liệu, phân tích thiết kế hệ thống và phát triển ứng dụng web.",
+      "Trong quá trình học, mình được làm quen với lập trình, cơ sở dữ liệu và các môn nền tảng liên quan đến phát triển web.",
   },
   {
     period: "2025",
     title: "Đồ án giao diện web cá nhân",
     location: "Môn học chuyên ngành",
     description:
-      "Phát triển website portfolio gồm thông tin cá nhân, CV, dự án, contact và quy trình deploy lên GitHub.",
+      "Mình xây dựng một website portfolio để giới thiệu bản thân, trình bày dự án và luyện cách deploy sản phẩm hoàn chỉnh.",
   },
 ];
 
 export const experienceTimeline: TimelineItem[] = [
   {
     period: "2025 - hiện tại",
-    title: "Frontend practice projects",
-    location: "Tự học và làm bài tập lớn",
+    title: "Làm các dự án frontend cá nhân",
+    location: "Tự học và làm đồ án",
     description:
-      "Xây dựng landing page, dashboard nhỏ và portfolio để rèn luyện chia layout, quản lý state nhẹ và tối ưu trải nghiệm người dùng.",
+      "Mình tự làm landing page, dashboard nhỏ và portfolio để luyện chia layout, xử lý component và cải thiện trải nghiệm người dùng.",
   },
   {
     period: "2024 - 2025",
-    title: "Làm việc nhóm trong đồ án môn học",
-    location: "Team 2 - 4 thành viên",
+    title: "Làm việc nhóm trong các môn chuyên ngành",
+    location: "Nhóm 2 - 4 thành viên",
     description:
-      "Phân công công việc, tạo branch, commit lên GitHub và trình bày sản phẩm cuối kỳ trong nhóm.",
+      "Mình tham gia phân chia công việc, tạo branch, commit code lên GitHub và cùng nhóm hoàn thiện bài cuối kỳ.",
   },
 ];
 
@@ -198,83 +198,83 @@ export const skillGroups: SkillGroup[] = [
 
 export const achievements = [
   {
-    title: "Cấu trúc rõ ràng",
+    title: "Code dễ theo dõi",
     description:
-      "Chia nội dung thành từng route riêng để portfolio dễ mở rộng và dễ đánh giá.",
+      "Phần nội dung được chia theo từng route và từng khối rõ ràng nên nhìn tổng thể rất dễ theo dõi.",
   },
   {
-    title: "Deploy-friendly",
+    title: "Triển khai nhanh",
     description:
-      "Cấu hình static export và workflow GitHub Pages giúp đưa bài lên online nhanh hơn.",
+      "Dự án đã có sẵn cấu hình export và workflow để đưa bài lên GitHub Pages khá nhanh.",
   },
   {
-    title: "Thiết kế responsive",
+    title: "Hiển thị linh hoạt",
     description:
-      "Bố cục đã được tính cho mobile, tablet và desktop để không vỡ layout khi demo.",
+      "Bố cục được chỉnh cho mobile, tablet và desktop để khi mở ở đâu cũng không bị vỡ giao diện.",
   },
   {
-    title: "Content-first",
+    title: "Nội dung dễ thay",
     description:
-      "Văn bản mẫu đủ thông tin, dễ sửa thành profile thực tế mà không cần viết lại giao diện.",
+      "Bạn có thể đổi thông tin mẫu thành nội dung thật rất nhanh mà không cần sửa lại toàn bộ giao diện.",
   },
 ];
 
 export const projects: ProjectItem[] = [
   {
-    category: "E-commerce UI",
+    category: "Giao diện bán hàng",
     title: "Trang giới thiệu cửa hàng thời trang",
     description:
-      "Xây dựng giao diện bán hàng có hero section, danh mục sản phẩm, feedback khách hàng và CTA rõ ràng.",
+      "Đây là một bài mình làm để luyện cách xây hero section, danh mục sản phẩm và bố trí các nút kêu gọi hành động cho rõ ràng.",
     highlight:
-      "Tập trung vào bố cục, màu sắc thu hút và cách sắp xếp card sản phẩm để tạo cảm giác hiện đại.",
+      "Điểm mình chú ý nhất ở bài này là bố cục, màu sắc và cách sắp xếp card sao cho nhìn hiện đại nhưng vẫn dễ xem.",
     outcome:
-      "Phù hợp để demo kỹ năng responsive, navigation và cách tổ chức giao diện marketing page.",
+      "Sau bài này mình tự tin hơn ở phần responsive và cách sắp xếp nội dung cho một landing page bán hàng.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
-    category: "Education Platform",
+    category: "Giáo dục",
     title: "Landing page khóa học online",
     description:
-      "Trình bày nội dung cho một nền tảng học tập với section về giảng viên, lộ trình học và đăng ký học thử.",
+      "Bài này giúp mình luyện cách trình bày nội dung cho một nền tảng học tập với phần giảng viên, lộ trình và đăng ký học thử.",
     highlight:
-      "Chú ý tới hierarchy thông tin, typography và các CTA để người xem nhanh hiểu được giá trị khóa học.",
+      "Mình tập trung vào việc sắp xếp thứ tự thông tin để người xem hiểu nhanh khóa học có gì và nên bấm vào đâu tiếp theo.",
     outcome:
-      "Là một case study tốt để chứng minh khả năng viết giao diện có cấu trúc nội dung đầy đủ.",
+      "Đây là bài khá ổn để thể hiện khả năng làm giao diện có nhiều nội dung mà vẫn giữ được sự gọn gàng.",
     stack: ["React", "UI Design", "Component Architecture"],
   },
   {
-    category: "Personal Branding",
+    category: "Thương hiệu cá nhân",
     title: "Portfolio cá nhân",
     description:
-      "Website giới thiệu bản thân, CV, sản phẩm và thông tin liên hệ với bố cục chuyên nghiệp.",
+      "Đây là website mình dùng để giới thiệu bản thân, kỹ năng, dự án đã làm và cách liên hệ trong một giao diện thống nhất.",
     highlight:
-      "Sử dụng layout chung, sidebar điều hướng, card thông tin và hiệu ứng nhẹ để website sống động hơn.",
+      "Mình dùng layout chung, sidebar điều hướng và các card nội dung để tổng thể vừa gọn vừa dễ đọc.",
     outcome:
-      "Đạt yêu cầu bài đồ án: đầy đủ trang, social links, responsive, smooth navigation và deploy GitHub.",
+      "Bài này đáp ứng được yêu cầu đồ án và cũng có thể dùng làm portfolio cá nhân thật sau khi thay nội dung.",
     stack: ["Next.js", "Static Export", "GitHub Pages"],
   },
 ];
 
 export const processSteps = [
   {
-    title: "Phân tích đề bài",
+    title: "Đọc đề và chia mục",
     description:
-      "Xác định danh sách trang bắt buộc, điều hướng, dữ liệu cần có và cách thỏa điều kiện nộp bài.",
+      "Đầu tiên mình xem kỹ đề để biết cần những trang nào, phần nào là bắt buộc và thứ tự nên làm ra sao.",
   },
   {
-    title: "Dựng wireframe",
+    title: "Phác thảo bố cục",
     description:
-      "Phân bổ hero, card, timeline, footer và sidebar trước khi viết code để tránh rối bố cục.",
+      "Trước khi code, mình chia sẵn hero, card, timeline, footer và menu để lúc làm không bị rối bố cục.",
   },
   {
-    title: "Implementation",
+    title: "Code và hoàn thiện",
     description:
-      "Tách layout chung, component tái sử dụng và file dữ liệu để về sau dễ chỉnh sửa nhanh hơn.",
+      "Sau đó mình tách layout, component và dữ liệu riêng để về sau sửa nội dung hay mở rộng cũng nhẹ hơn.",
   },
   {
-    title: "Kiểm tra và deploy",
+    title: "Kiểm tra rồi deploy",
     description:
-      "Chạy lint, build, sau đó push lên GitHub và bật GitHub Pages để tạo domain free online.",
+      "Cuối cùng mình kiểm tra lại giao diện, chạy build và đưa bài lên GitHub để có thể chia sẻ bằng link online.",
   },
 ];
 
@@ -282,25 +282,25 @@ export const contactChannels = [
   {
     label: "Email",
     value: profile.email,
-    description: "Kênh phù hợp để gửi CV, trao đổi đề bài hoặc phản hồi về portfolio.",
+    description: "Nếu cần trao đổi về bài làm, CV hoặc cơ hội thực tập thì email là cách phù hợp nhất.",
     href: `mailto:${profile.email}`,
   },
   {
     label: "Điện thoại",
     value: profile.phoneDisplay,
-    description: "Dùng cho nhu cầu liên hệ nhanh khi cần demo, phỏng vấn hoặc xác nhận lịch hẹn.",
+    description: "Phù hợp cho những trường hợp cần liên hệ nhanh như hẹn trao đổi, demo bài hoặc xác nhận lịch.",
     href: `tel:${profile.phoneDisplay.replace(/\s+/g, "")}`,
   },
   {
     label: "Địa điểm",
     value: profile.location,
-    description: "Có thể cập nhật thành thành phố, trường học hoặc khu vực làm việc mong muốn.",
+    description: "Bạn có thể thay phần này bằng nơi mình đang học hoặc khu vực muốn tìm cơ hội thực tập.",
     href: "https://maps.google.com",
   },
   {
     label: "GitHub",
     value: "github.com",
-    description: "Nơi để đặt source code, lịch sử commit và các bài làm khác để giảng viên dễ kiểm tra.",
+    description: "Đây là nơi mình để source code và lịch sử commit để giảng viên hoặc nhà tuyển dụng tiện xem thêm.",
     href: "https://github.com",
   },
 ];

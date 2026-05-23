@@ -12,27 +12,27 @@ export default function AboutPage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="Giới thiệu"
-        title="Câu chuyện cá nhân, định hướng học tập và cách tôi xây dựng sản phẩm web."
-        description="Trang này tập trung vào con người đứng sau dự án: tư duy học hỏi, phong cách làm việc và những công cụ đang theo đuổi để trở thành một frontend developer vững vàng."
+        title="Một chút về mình, cách mình học và cách mình làm các sản phẩm web."
+        description="Trang này không chỉ nói về kỹ năng, mà còn là cách mình suy nghĩ, học hỏi và cải thiện dần qua từng bài làm."
       />
 
       <section className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
         <article className="soft-card section-shell">
           <p className="eyebrow">Tôi là ai</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Yêu thích biến ý tưởng thành giao diện rõ ràng, có hệ thống và dễ sử dụng.
+            Mình thích biến những ý tưởng còn thô thành giao diện gọn gàng, dễ nhìn và dễ dùng.
           </h2>
           <div className="mt-5 space-y-4 text-base leading-8 text-slate-600">
             <p>
-              Tôi định hướng trở thành frontend developer có khả năng kết nối
-              giữa thiết kế, trải nghiệm người dùng và implementation. Mỗi dự
-              án là cơ hội để rèn luyện tư duy bố cục, khả năng tổ chức mã nguồn
-              và cách trình bày thông tin chuyên nghiệp.
+              Mình đang theo định hướng frontend vì thích cảm giác biến một bản
+              phác thảo hoặc ý tưởng thành thứ có thể nhìn thấy và tương tác
+              được. Mỗi bài làm là một lần mình học thêm về bố cục, màu sắc và
+              cách sắp xếp nội dung cho hợp lý.
             </p>
             <p>
-              Ngoài việc học React và Next.js, tôi cũng chú trọng cách viết code
-              dễ đọc, dễ bảo trì, tái sử dụng được và phù hợp với biểu mẫu nộp
-              bài, portfolio cá nhân hoặc landing page cho dự án nhỏ.
+              Ngoài việc học React và Next.js, mình cũng cố gắng viết code theo
+              hướng dễ đọc, dễ sửa và có thể dùng lại. Mình muốn những bài làm
+              không chỉ đủ để nộp mà còn đủ gọn để sau này tiếp tục phát triển.
             </p>
           </div>
         </article>
@@ -77,7 +77,7 @@ export default function AboutPage() {
       <section className="soft-card section-shell">
         <p className="eyebrow">Công cụ và công nghệ</p>
         <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-          Bộ kỹ năng đang được ưu tiên để hoàn thành các bài đồ án frontend.
+          Đây là những công cụ mình đang dùng nhiều nhất trong quá trình học và làm đồ án.
         </h2>
         <div className="mt-8 flex flex-wrap gap-3">
           {toolkit.map((tool) => (

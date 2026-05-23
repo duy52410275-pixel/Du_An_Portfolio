@@ -12,8 +12,8 @@ export default function ProductsPage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="Dự án"
-        title="Những sản phẩm mẫu để trình bày cách tôi giải quyết bài toán bằng React và Next.js."
-        description="Phần dự án là nơi quan trọng nhất trong portfolio. Mỗi card được viết theo hướng dễ đọc nhanh: bài toán, giải pháp, công nghệ và kết quả."
+        title="Đây là một vài dự án mình dùng để luyện tay và thể hiện cách mình làm giao diện."
+        description="Mỗi dự án ở đây đều giúp mình học thêm một chút, từ chia bố cục, viết component cho tới cách trình bày nội dung sao cho dễ nhìn."
       />
 
       <section className="grid gap-6 xl:grid-cols-3">
@@ -58,7 +58,7 @@ export default function ProductsPage() {
       <section className="soft-card section-shell">
         <p className="eyebrow">Quy trình làm việc</p>
         <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-          Cách tôi biến một bài tập giao diện thành sản phẩm có bố cục rõ ràng.
+          Đây là cách mình thường làm một bài frontend từ lúc đọc đề đến khi hoàn thiện.
         </h2>
         <div className="mt-8 grid gap-4 lg:grid-cols-4">
           {processSteps.map((step, index) => (
