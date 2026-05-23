@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Next.js
 
-## Getting Started
+Đây là dự án portfolio cá nhân dùng Next.js App Router, được chuẩn bị theo hướng phù hợp để nộp bài và deploy lên GitHub Pages.
 
-First, run the development server:
+## Tinh nang chinh
+
+- Header, footer, sidebar/nav rõ ràng
+- Các trang `Home`, `About`, `CV`, `My Product`, `Contact`
+- Social icon có liên kết hoạt động
+- Giao diện responsive cho desktop và mobile
+- Chuyển trang mượt nhờ client-side navigation của Next.js
+- Đã cấu hình sẵn để static export và deploy GitHub Pages
+
+## Chay local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mo `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Nơi cần sửa thông tin cá nhân
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tất cả nội dung mẫu được đặt tại:
 
-## Learn More
+`app/lib/portfolio-content.ts`
 
-To learn more about Next.js, take a look at the following resources:
+Bạn chỉ cần đổi:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Tên
+- Email
+- Số điện thoại
+- Social links
+- Học vấn, kinh nghiệm, dự án
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Build production
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Sau khi build thành công, bạn sẽ có thư mục `out/`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy GitHub Pages
+
+Repo da co workflow tai:
+
+`.github/workflows/deploy.yml`
+
+Huong dan:
+
+1. Push code len GitHub.
+2. Vao `Settings` > `Pages`.
+3. Chọn `GitHub Actions` làm source.
+4. Push lên nhánh `main`, workflow sẽ tự build và deploy.
+
+Workflow đã tự xử lý `basePath`:
+
+- Nếu repo là `username.github.io` thì deploy root domain.
+- Nếu repo là repo thường, workflow sẽ dùng đường dẫn `/<ten-repo>`.

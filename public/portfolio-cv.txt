@@ -1,0 +1,28 @@
+PORTFOLIO CV MAU
+
+Họ và tên: Tên Của Bạn
+Vai trò: Lập trình viên Frontend / Người yêu UI
+Email: ban@example.com
+Số điện thoại: +84 90 000 0000
+Địa điểm: TP. Hồ Chí Minh, Việt Nam
+
+Mục tiêu:
+Phát triển website giao diện đẹp, dễ sử dụng và dễ bảo trì bằng React hoặc Next.js.
+
+Học vấn:
+- 2022 - 2026: Cử nhân Công nghệ thông tin
+- 2025: Đồ án portfolio web cá nhân
+
+Kỹ năng:
+- HTML, CSS, Tailwind CSS
+- JavaScript, TypeScript
+- React, Next.js
+- Git, GitHub, Figma
+
+Dự án:
+- Portfolio cá nhân
+- Landing page khóa học online
+- Trang giới thiệu cửa hàng thời trang
+
+Ghi chú:
+Hãy thay file này bằng CV PDF thực tế của bạn trước khi nộp bài hoặc gửi nhà tuyển dụng.
