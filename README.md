@@ -1,38 +1,46 @@
-# Portfolio Next.js
+# Portfolio cá nhân - Phạm Bảo Duy
 
-Đây là dự án portfolio cá nhân dùng Next.js App Router, được chuẩn bị theo hướng phù hợp để nộp bài và deploy lên GitHub Pages.
+Đây là website portfolio cá nhân của **Phạm Bảo Duy**, được xây dựng bằng **Next.js** để phục vụ cho bài đồ án môn học và cũng có thể dùng làm trang giới thiệu bản thân sau này.
 
-## Tinh nang chinh
+Website tập trung vào cách trình bày gọn gàng, dễ đọc và đủ thông tin cơ bản như giới thiệu bản thân, học vấn, kỹ năng, dự án và phần liên hệ.
 
-- Header, footer, sidebar/nav rõ ràng
-- Các trang `Home`, `About`, `CV`, `My Product`, `Contact`
-- Social icon có liên kết hoạt động
+## Thông tin chính
+
+- Họ và tên: `Phạm Bảo Duy`
+- Vai trò: `Sinh viên CNTT-UDPM, định hướng làm web bán hàng`
+- Trường: `Cao đẳng Việt Mỹ`
+- Email: `duy52410275@caodangvietmy.edu.vn`
+- GitHub: `https://github.com/duy52410275-pixel`
+
+## Tính năng
+
+- Có đầy đủ các trang: `Trang chủ`, `Giới thiệu`, `CV`, `Dự án`, `Liên hệ`
 - Giao diện responsive cho desktop và mobile
-- Chuyển trang mượt nhờ client-side navigation của Next.js
-- Đã cấu hình sẵn để static export và deploy GitHub Pages
+- Header, footer và menu điều hướng rõ ràng
+- Nội dung được tách riêng để dễ chỉnh sửa
+- Có liên kết GitHub và email
+- Nút email mở thẳng `Gmail compose`
+- Có cấu hình sẵn để build static và deploy lên `GitHub Pages`
 
-## Chay local
+## Công nghệ sử dụng
+
+- `Next.js`
+- `React`
+- `TypeScript`
+- `Tailwind CSS`
+
+## Chạy project ở máy local
 
 ```bash
 npm install
 npm run dev
 ```
 
-Mo `http://localhost:3000`.
+Sau đó mở:
 
-## Nơi cần sửa thông tin cá nhân
-
-Tất cả nội dung mẫu được đặt tại:
-
-`app/lib/portfolio-content.ts`
-
-Bạn chỉ cần đổi:
-
-- Tên
-- Email
-- Số điện thoại
-- Social links
-- Học vấn, kinh nghiệm, dự án
+```txt
+http://localhost:3000
+```
 
 ## Build production
 
@@ -40,22 +48,46 @@ Bạn chỉ cần đổi:
 npm run build
 ```
 
-Sau khi build thành công, bạn sẽ có thư mục `out/`.
+Sau khi build xong, project sẽ xuất ra thư mục `out/`.
 
-## Deploy GitHub Pages
+## Cấu trúc nội dung chính
 
-Repo da co workflow tai:
+Phần thông tin cá nhân và nội dung hiển thị chính nằm ở:
 
-`.github/workflows/deploy.yml`
+```txt
+app/lib/portfolio-content.ts
+```
 
-Huong dan:
+Nếu muốn cập nhật thêm thông tin sau này, chỉ cần sửa ở đây:
 
-1. Push code len GitHub.
-2. Vao `Settings` > `Pages`.
-3. Chọn `GitHub Actions` làm source.
-4. Push lên nhánh `main`, workflow sẽ tự build và deploy.
+- Thông tin cá nhân
+- Học vấn
+- Kinh nghiệm
+- Kỹ năng
+- Dự án
+- Liên hệ và mạng xã hội
 
-Workflow đã tự xử lý `basePath`:
+## Deploy lên GitHub Pages
 
-- Nếu repo là `username.github.io` thì deploy root domain.
-- Nếu repo là repo thường, workflow sẽ dùng đường dẫn `/<ten-repo>`.
+Project đã có sẵn workflow tại:
+
+```txt
+.github/workflows/deploy.yml
+```
+
+Các bước deploy:
+
+1. Commit và push code lên GitHub
+2. Vào `Settings` > `Pages`
+3. Chọn `GitHub Actions`
+4. Push lên nhánh `main` để workflow tự build và deploy
+
+## Ghi chú
+
+- Hiện tại phần liên hệ ưu tiên `Email` và `GitHub`
+- Nếu sau này có thêm `Facebook`, `LinkedIn` hoặc `Zalo`, chỉ cần thêm link vào file dữ liệu là dùng được ngay
+- File CV tạm hiện nằm ở:
+
+```txt
+public/portfolio-cv.txt
+```
