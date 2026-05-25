@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 
+import { GmailComposeForm } from "@/app/components/gmail-compose-form";
 import { PageHero } from "@/app/components/page-hero";
 import {
   contactChannels,
+  gmailComposeUrl,
   profile,
   socialLinks,
 } from "@/app/lib/portfolio-content";
@@ -18,10 +20,10 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Liên hệ"
         title="Nếu muốn trao đổi thêm về bài làm hoặc cơ hội thực tập, bạn có thể liên hệ với mình."
-        description="Mình để sẵn các kênh liên hệ cơ bản ở đây để người xem tiện kết nối. Sau này chỉ cần thay bằng thông tin thật là có thể dùng ngay."
+        description="Mình để sẵn các kênh liên hệ cơ bản ở đây để ai cần có thể kết nối nhanh với mình."
         actions={[
           {
-            href: `mailto:${profile.email}`,
+            href: gmailComposeUrl,
             label: "Gửi email",
             external: true,
           },
@@ -68,11 +70,12 @@ export default function ContactPage() {
         <article className="soft-card section-shell">
           <p className="eyebrow">Kết nối thêm</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Bạn cũng có thể xem thêm GitHub hoặc nhắn cho mình qua các kênh bên dưới.
+            Mình để sẵn kênh liên hệ chính ở đây để ai cần thì có thể kết nối nhanh.
           </h2>
           <p className="mt-4 text-base leading-8 text-slate-600">
-            Hiện tại mình đang để liên kết mẫu để bạn có thể demo ngay. Chỉ cần
-            cập nhật lại URL và thông tin thật là phần này sẽ hoàn chỉnh.
+            Hiện tại mình đã thêm GitHub và email là hai kênh chính. Sau này nếu
+            có thêm Facebook, LinkedIn hoặc Zalo thì mình sẽ cập nhật tiếp vào
+            phần này.
           </p>
           <div className="mt-8">
             <SocialLinks links={socialLinks} />
@@ -84,43 +87,7 @@ export default function ContactPage() {
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
             Nếu tiện, bạn có thể để lại cho mình một lời nhắn ngắn ở đây.
           </h2>
-          <form
-            action={`mailto:${profile.email}`}
-            method="post"
-            encType="text/plain"
-            className="mt-8 grid gap-4"
-          >
-            <label className="grid gap-2 text-sm font-medium text-slate-700">
-              Họ và tên
-              <input
-                name="name"
-                type="text"
-                placeholder="Nhập tên của bạn"
-                className="form-input"
-              />
-            </label>
-            <label className="grid gap-2 text-sm font-medium text-slate-700">
-              Email
-              <input
-                name="email"
-                type="email"
-                placeholder="email@example.com"
-                className="form-input"
-              />
-            </label>
-            <label className="grid gap-2 text-sm font-medium text-slate-700">
-              Nội dung
-              <textarea
-                name="message"
-                rows={5}
-                placeholder="Bạn muốn trao đổi về dự án nào?"
-                className="form-input resize-none"
-              />
-            </label>
-            <button type="submit" className="primary-button w-full sm:w-fit">
-              Mở ứng dụng email
-            </button>
-          </form>
+          <GmailComposeForm email={profile.email} />
         </article>
       </section>
     </div>

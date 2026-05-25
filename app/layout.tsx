@@ -4,6 +4,7 @@ import Link from "next/link";
 import { SiteNavigation } from "@/app/components/site-navigation";
 import { SocialLinks } from "@/app/components/social-links";
 import {
+  gmailComposeUrl,
   navItems,
   profile,
   socialLinks,
@@ -12,8 +13,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: `${profile.name} | Portfolio`,
-    template: `%s | ${profile.name}`,
+    default: `${profile.fullName} | Portfolio`,
+    template: `%s | ${profile.fullName}`,
   },
   description: profile.shortBio,
 };
@@ -47,7 +48,7 @@ export default function RootLayout({
                     <span>{profile.initials}</span>
                   </div>
                   <h2 className="mt-5 text-2xl font-semibold text-slate-900">
-                    {profile.name}
+                    {profile.fullName}
                   </h2>
                   <p className="mt-2 text-sm leading-7 text-slate-600">
                     {profile.tagline}
@@ -98,7 +99,12 @@ export default function RootLayout({
               </p>
             </div>
             <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
-              <a href={`mailto:${profile.email}`} className="text-sm text-slate-700">
+              <a
+                href={gmailComposeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-slate-700"
+              >
                 {profile.email}
               </a>
               <span className="hidden text-slate-300 sm:inline">/</span>

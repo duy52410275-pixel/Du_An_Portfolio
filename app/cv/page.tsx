@@ -17,8 +17,8 @@ export default function CvPage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="CV"
-        title="Đây là phần tóm tắt nhanh về học vấn, kỹ năng và những gì mình đã làm."
-        description="Mình sắp xếp nội dung theo dạng timeline để người xem dễ theo dõi hơn thay vì phải đọc một CV quá dài ngay từ đầu."
+        title="Đây là phần tóm tắt nhanh về học vấn, kỹ năng và những gì mình đã làm trong thời gian gần đây."
+        description="Mình sắp xếp nội dung theo dạng timeline để người xem dễ theo dõi hơn và nắm được thông tin chính ngay từ đầu."
         actions={[
           {
             href: "/portfolio-cv.txt",

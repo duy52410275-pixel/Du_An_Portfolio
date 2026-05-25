@@ -18,7 +18,7 @@ export default function HomePage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="Portfolio cá nhân"
-        title="Xin chào, đây là nơi mình giới thiệu bản thân và những gì mình đã làm với React, Next.js."
+        title="Xin chào, mình là Duy. Đây là nơi mình giới thiệu bản thân và những gì mình đã làm trong quá trình học web."
         description={`${profile.shortBio} Nếu bạn muốn xem nhanh phần học vấn, dự án và cách liên hệ với mình thì mọi thứ đều có sẵn ở đây.`}
         actions={[
           { href: "/products", label: "Xem dự án" },
@@ -68,13 +68,14 @@ export default function HomePage() {
         <article className="soft-card section-shell">
           <p className="eyebrow">Giới thiệu nhanh</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-            Mình muốn portfolio này nhìn gọn, dễ đọc và đủ thông tin ngay từ lần xem đầu tiên.
+            Mình muốn portfolio này nhìn gọn, dễ đọc và thể hiện đúng những gì mình đang có.
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-8 text-slate-600">
             Khi làm dự án này, mình ưu tiên cách trình bày rõ ràng để người xem
-            có thể hiểu nhanh mình là ai, đang học gì và đã làm được những gì.
-            Ngoài phần giao diện, mình cũng cố gắng giữ cho cấu trúc code dễ
-            sửa để sau này có thể cập nhật thành portfolio cá nhân thật.
+            có thể hiểu nhanh mình là ai, đang học ở đâu và mình đã làm được gì
+            trong quá trình học. Mình cũng cố gắng giữ giao diện đơn giản, dễ
+            nhìn để sau này có thể tiếp tục cập nhật thành portfolio cá nhân
+            thật của mình.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {strengths.map((strength, index) => (

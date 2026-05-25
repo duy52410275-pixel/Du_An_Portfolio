@@ -1,28 +1,28 @@
 PORTFOLIO CV MAU
 
-Họ và tên: Tên Của Bạn
-Vai trò: Lập trình viên Frontend / Người yêu UI
-Email: ban@example.com
-Số điện thoại: +84 90 000 0000
-Địa điểm: TP. Hồ Chí Minh, Việt Nam
+Họ và tên: Phạm Bảo Duy
+Vai trò: Sinh viên CNTT-UDPM, định hướng làm web bán hàng
+Email: duy52410275@caodangvietmy.edu.vn
+Số điện thoại: 0345 335 285
+Địa điểm: Hồ Chí Minh, Việt Nam
 
 Mục tiêu:
-Phát triển website giao diện đẹp, dễ sử dụng và dễ bảo trì bằng React hoặc Next.js.
+Tìm một công việc ổn định trong lĩnh vực làm web, đặc biệt là các giao diện bán hàng gọn gàng và dễ dùng.
 
 Học vấn:
-- 2022 - 2026: Cử nhân Công nghệ thông tin
-- 2025: Đồ án portfolio web cá nhân
+- 2024 - 2028: Cao đẳng Việt Mỹ, ngành CNTT-UDPM
+- 2026: Thực tập tại trường và làm đồ án portfolio cá nhân
 
 Kỹ năng:
-- HTML, CSS, Tailwind CSS
+- HTML, CSS
 - JavaScript, TypeScript
 - React, Next.js
-- Git, GitHub, Figma
+- GitHub, VS Code
+- Tự học, làm việc độc lập, đọc tài liệu
 
 Dự án:
 - Portfolio cá nhân
-- Landing page khóa học online
-- Trang giới thiệu cửa hàng thời trang
+- Web bán máy lọc nước
 
 Ghi chú:
 Hãy thay file này bằng CV PDF thực tế của bạn trước khi nộp bài hoặc gửi nhà tuyển dụng.

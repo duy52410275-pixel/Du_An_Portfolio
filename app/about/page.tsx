@@ -13,7 +13,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="Giới thiệu"
         title="Một chút về mình, cách mình học và cách mình làm các sản phẩm web."
-        description="Trang này không chỉ nói về kỹ năng, mà còn là cách mình suy nghĩ, học hỏi và cải thiện dần qua từng bài làm."
+        description="Trang này không chỉ nói về kỹ năng, mà còn là cách mình học, cách mình làm bài và cách mình cải thiện qua từng dự án."
       />
 
       <section className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
@@ -24,15 +24,16 @@ export default function AboutPage() {
           </h2>
           <div className="mt-5 space-y-4 text-base leading-8 text-slate-600">
             <p>
-              Mình đang theo định hướng frontend vì thích cảm giác biến một bản
-              phác thảo hoặc ý tưởng thành thứ có thể nhìn thấy và tương tác
-              được. Mỗi bài làm là một lần mình học thêm về bố cục, màu sắc và
-              cách sắp xếp nội dung cho hợp lý.
+              Mình hiện là sinh viên ngành CNTT-UDPM tại Cao đẳng Việt Mỹ. Mình
+              thích làm các website gọn, dễ dùng và đặc biệt quan tâm đến những
+              giao diện theo kiểu web bán hàng vì cảm thấy phần này khá thực tế
+              và phù hợp với định hướng của mình.
             </p>
             <p>
-              Ngoài việc học React và Next.js, mình cũng cố gắng viết code theo
-              hướng dễ đọc, dễ sửa và có thể dùng lại. Mình muốn những bài làm
-              không chỉ đủ để nộp mà còn đủ gọn để sau này tiếp tục phát triển.
+              Mục tiêu của mình là sau khi học xong có thể tìm được một công
+              việc ổn định, làm tốt phần giao diện web và tiếp tục học thêm từ
+              công việc thật. Mình khá hướng nội nhưng lại hợp với kiểu ngồi tập
+              trung làm kỹ từng phần, nhất là vào lúc yên tĩnh.
             </p>
           </div>
         </article>
@@ -77,7 +78,7 @@ export default function AboutPage() {
       <section className="soft-card section-shell">
         <p className="eyebrow">Công cụ và công nghệ</p>
         <h2 className="mt-3 text-3xl font-semibold text-slate-900">
-          Đây là những công cụ mình đang dùng nhiều nhất trong quá trình học và làm đồ án.
+          Đây là những công cụ và công nghệ mình dùng nhiều nhất trong quá trình học và làm đồ án.
         </h2>
         <div className="mt-8 flex flex-wrap gap-3">
           {toolkit.map((tool) => (

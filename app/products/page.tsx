@@ -12,8 +12,8 @@ export default function ProductsPage() {
     <div className="space-y-6">
       <PageHero
         eyebrow="Dự án"
-        title="Đây là một vài dự án mình dùng để luyện tay và thể hiện cách mình làm giao diện."
-        description="Mỗi dự án ở đây đều giúp mình học thêm một chút, từ chia bố cục, viết component cho tới cách trình bày nội dung sao cho dễ nhìn."
+        title="Đây là một vài dự án mình dùng để luyện tay và thể hiện cách mình làm giao diện web."
+        description="Mỗi dự án ở đây đều giúp mình học thêm một chút, từ chia bố cục, viết code cho tới cách trình bày nội dung sao cho gọn và dễ nhìn."
       />
 
       <section className="grid gap-6 xl:grid-cols-3">

@@ -6,14 +6,20 @@ type SocialLinksProps = {
 };
 
 export function SocialLinks({ links, compact = false }: SocialLinksProps) {
+  const activeLinks = links.filter((link) => Boolean(link.href));
+
+  if (activeLinks.length === 0) {
+    return null;
+  }
+
   return (
     <div className={`flex flex-wrap gap-3 ${compact ? "gap-2" : ""}`}>
-      {links.map((link) => (
+      {activeLinks.map((link) => (
         <a
           key={link.label}
           href={link.href}
-          target={link.href.startsWith("http") ? "_blank" : undefined}
-          rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
+          target={link.href?.startsWith("http") ? "_blank" : undefined}
+          rel={link.href?.startsWith("http") ? "noopener noreferrer" : undefined}
           aria-label={link.label}
           className={`inline-flex items-center justify-center rounded-full border border-slate-200 bg-white/80 text-slate-700 shadow-sm hover:-translate-y-0.5 hover:border-teal-200 hover:text-teal-700 ${
             compact ? "h-10 w-10" : "h-11 w-11"
