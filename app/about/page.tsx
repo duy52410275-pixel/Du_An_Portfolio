@@ -18,7 +18,7 @@ export default function AboutPage() {
 
       <section className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
         <article className="soft-card section-shell">
-          <p className="eyebrow">Tôi là ai</p>
+          <p className="eyebrow">Mình là ai</p>
           <h2 className="mt-3 text-3xl font-semibold text-slate-900">
             Mình thích biến những ý tưởng còn thô thành giao diện gọn gàng, dễ nhìn và dễ dùng.
           </h2>

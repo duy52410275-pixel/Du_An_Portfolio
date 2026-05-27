@@ -58,7 +58,7 @@ Phần thông tin cá nhân và nội dung hiển thị chính nằm ở:
 app/lib/portfolio-content.ts
 ```
 
-Nếu muốn cập nhật thêm thông tin sau này, chỉ cần sửa ở đây:
+thông tin sau này nếu có sẽ cập nhật tiếp:
 
 - Thông tin cá nhân
 - Học vấn
