@@ -144,8 +144,6 @@ export const toolkit = [
   "TypeScript",
   "React",
   "Next.js",
-  "Figma",
-  "Git",
   "GitHub",
   "VS Code",
 ];
@@ -176,11 +174,11 @@ export const experienceTimeline: TimelineItem[] = [
       "Hiện tại mình đang thực tập tại trường, đồng thời làm thêm các bài tập và dự án nhỏ để luyện thêm kỹ năng làm giao diện web.",
   },
   {
-    period: "2026",
-    title: "Tham gia dự án web bán máy lọc nước",
-    location: "Dự án nhóm môn học",
+    period: "Trong quá trình học",
+    title: "Thành viên dự án web bán máy lọc nước",
+    location: "Môn Dự án mẫu",
     description:
-      "Mình tham gia làm giao diện, sắp xếp nội dung sản phẩm và hỗ trợ chỉnh sửa phần hiển thị để website nhìn gọn và dễ dùng hơn.",
+      "Mình tham gia với vai trò hỗ trợ phần giao diện, sắp xếp nội dung sản phẩm và chỉnh lại cách hiển thị để website dễ nhìn và dễ dùng hơn.",
   },
 ];
 
@@ -238,11 +236,11 @@ export const projects: ProjectItem[] = [
     category: "Dự án nhóm môn học",
     title: "Web bán máy lọc nước",
     description:
-      "Đây là dự án nhóm mình từng tham gia ở trường với mục tiêu xây dựng website giới thiệu và bán máy lọc nước.",
+      "Đây là dự án nhóm mình làm trong quá trình học môn Dự án mẫu với mục tiêu xây dựng website giới thiệu và bán máy lọc nước.",
     highlight:
-      "Phần mình làm chủ yếu liên quan đến giao diện, sắp xếp nội dung sản phẩm và hỗ trợ chỉnh sửa phần hiển thị cho dễ nhìn hơn.",
+      "Mình là thành viên hỗ trợ phần giao diện, chủ yếu sắp xếp nội dung sản phẩm và chỉnh lại các phần hiển thị để trang trông gọn hơn.",
     outcome:
-      "Dự án giúp mình hiểu thêm về cách làm việc nhóm, phối hợp nội dung và hoàn thiện một website bán hàng cơ bản.",
+      "Dự án giúp mình hiểu rõ hơn cách phối hợp trong nhóm và cách hoàn thiện một website bán hàng cơ bản từ phần giao diện.",
     stack: ["HTML", "CSS", "JavaScript"],
   },
 ];

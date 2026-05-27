@@ -25,15 +25,15 @@ export default function AboutPage() {
           <div className="mt-5 space-y-4 text-base leading-8 text-slate-600">
             <p>
               Mình hiện là sinh viên ngành CNTT-UDPM tại Cao đẳng Việt Mỹ. Mình
-              thích làm các website gọn, dễ dùng và đặc biệt quan tâm đến những
-              giao diện theo kiểu web bán hàng vì cảm thấy phần này khá thực tế
-              và phù hợp với định hướng của mình.
+              thích làm những website gọn, dễ nhìn và dễ dùng, nhất là các giao
+              diện theo kiểu web bán hàng vì cảm thấy mảng này khá thực tế và
+              gần với định hướng của mình.
             </p>
             <p>
-              Mục tiêu của mình là sau khi học xong có thể tìm được một công
-              việc ổn định, làm tốt phần giao diện web và tiếp tục học thêm từ
-              công việc thật. Mình khá hướng nội nhưng lại hợp với kiểu ngồi tập
-              trung làm kỹ từng phần, nhất là vào lúc yên tĩnh.
+              Hiện tại mình đang thực tập tại trường và vẫn tiếp tục làm thêm
+              các bài web để luyện kỹ năng. Mục tiêu của mình là sau khi học
+              xong có thể tìm được một công việc ổn định, làm tốt phần giao diện
+              và tích lũy thêm kinh nghiệm từ môi trường làm việc thật.
             </p>
           </div>
         </article>
