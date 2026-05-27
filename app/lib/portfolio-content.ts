@@ -144,6 +144,8 @@ export const toolkit = [
   "TypeScript",
   "React",
   "Next.js",
+  "Figma",
+  "Git",
   "GitHub",
   "VS Code",
 ];
